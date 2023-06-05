@@ -14,3 +14,10 @@ spec:
   path: "./apps"
   prune: true
   timeout: 30s
+  postBuild:
+    substitute:
+      gitops_branch: non-prod
+      examiner_version: "~1.10"
+      podinfo_version: "~6"
+      examiner_message: "🎢 CloudLand 2023 R0ckX 🎸"
+      podinfo_message: "🎢 CloudLand 2023 R0ckX hard 🎸"
