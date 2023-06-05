@@ -16,8 +16,8 @@ spec:
   timeout: 30s
   postBuild:
     substitute:
-      gitops_branch: non-prod
-      examiner_version: "~1.10"
-      podinfo_version: "~6"
-      examiner_message: "🎢 CloudLand 2023 R0ckX 🎸"
-      podinfo_message: "🎢 CloudLand 2023 R0ckX hard 🎸"
+      gitops_branch: production
+      examiner_version: "~1.10.1"
+      podinfo_version: "~6.3"
+      examiner_message: "✨🎢 CloudLand 2023 R0ckX in Production 🎸✨"
+      podinfo_message: "✨🎢 CloudLand 2023 R0ckX hard in Production 🎸✨"
